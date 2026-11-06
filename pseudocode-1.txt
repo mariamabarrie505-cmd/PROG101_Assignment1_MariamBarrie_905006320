@@ -1,0 +1,31 @@
+PROG101 Assignment 1: Exams Eligibility Checker
+Student: Mariama Barrie
+Student ID: 905006320
+
+PSEUDOCODE
+
+START Main
+    DECLARE studentName AS String
+    DECLARE percentage AS Real
+    DECLARE choice AS String
+    DECLARE totalSchoolDays AS Integer
+    DECLARE totalDaysPresent AS Integer
+    SET choice = "yes"
+    OUTPUT "Welcome to our exams eligibility checker"
+    WHILE choice == "yes" DO
+        OUTPUT "Please enter the name of the student"
+        INPUT studentName
+        OUTPUT "Please enter total school days"
+        INPUT totalSchoolDays
+        OUTPUT "Please enter total days present"
+        INPUT totalDaysPresent
+        SET percentage = totalDaysPresent / totalSchoolDays * 100
+        IF percentage >= 75 THEN
+            OUTPUT "Based on the attendance record, " & studentName & " is eligible for the exams"
+        ELSE
+            OUTPUT "Based on the attendance record, " & studentName & " is not eligible for this exams"
+        END IF
+        OUTPUT "Do you want to check another student? Enter yes or no"
+        INPUT choice
+    END WHILE
+END Main
