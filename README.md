@@ -70,7 +70,7 @@ The design is shared openly so that any school, teacher or student can read it, 
 
 - `README.md`: project overview (this file)
 - `pseudocode.md`: pseudocode and step-by-step algorithm
-- `flowchart.png`: flowchart drawn with diagrams.net (Draw.io)
+- `flowchart.png`: flowchart drawn with flowgorithm App
 - Report file: full written report
 
 ## Author
